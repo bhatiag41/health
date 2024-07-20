@@ -1,0 +1,453 @@
+body,
+html {
+    background-color: white;
+    font-family: "Signika", sans-serif;
+    overflow-x: hidden !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.nav {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px 0 25px;
+    background-color: #fff;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.10);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.nav .links a {
+    margin-right: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+
+.nav .links .mainlink {
+    color: #2EBBCC;
+}
+
+.nav .links a:hover {
+    color: #635fc5;
+}
+
+.nav .links .button {
+    padding: 8.5px 34px;
+    margin-left: 65px;
+    display: inline-block;
+    padding: 10.5px;
+    color: black;
+    font-weight: 14px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    text-transform: capitalize;
+    font-family: "Signika", serif;
+    border: 1px solid #e4e6ea;
+}
+
+.nav .links .button:hover {
+    color: #635fc5;
+}
+
+/* landing CSS */
+.landing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw 0 10vw;
+    height: 100vh;
+}
+
+.landingText h1 {
+    font-size: 6vw;
+    margin: 0 !important;
+}
+
+.landingText h3 {
+    margin: 6px !important;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #6d6d6d;
+    font-family: "Signika", serif;
+    padding-right: 20px;
+}
+
+.landingText .btn {
+    width: 120px;
+    margin-top: 30px;
+    padding: 14px 20px 12px 20px;
+    background-image: linear-gradient(#2EBBCC, #635fc5);
+    border-radius: 45px;
+    text-align: center;
+}
+
+.landingText .btn a {
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+
+}
+
+.landingImage img {
+    width: 28vw;
+}
+
+/* service CSS */
+.about {
+    height: 600px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.aboutText {
+    position: relative;
+    padding: 0 50px;
+    height: inherit;
+}
+
+.aboutText h1 {
+    position: relative;
+    left: 110px;
+}
+
+.aboutText img {
+    width: 11vw;
+    position: absolute;
+    top: 58px;
+}
+
+.aboutList {
+    width: 50%;
+}
+
+ol {
+    list-style: none;
+    color: rgb(175, 10, 54);
+}
+
+ol li {
+    font-size: 34px;
+    position: relative;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+li p {
+    font: 15px;
+    color: rgb(0, 0, 0);
+    padding-left: 60px;
+    line-height: 30px;
+    opacity: 0.6;
+}
+
+li span {
+    position: absolute;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+/*  info section*/
+.infoSection {
+    height: 600px;
+}
+
+.infoHeader {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.infoCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0 40px 0;
+
+}
+
+.infoCards .card {
+    position: relative;
+    height: 360px;
+    width: 360px;
+    background-image: linear-gradient(#2EBBCC, #635fc5);
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.9), 0 10px 10px rgba(0, 0, 0, 0.09);
+}
+
+.infoCards .one .cardoneImg {
+    width: 150px;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+
+}
+
+.infoCards .two .cardtwoImg {
+    width: 150px;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+
+}
+
+.infoCards .three .cardthreeImg {
+    width: 150px;
+    position: absolute;
+    top: -50px;
+    right: -30px;
+
+}
+
+.cardbgone {
+    height: 150px;
+    background-color: #fff;
+}
+
+.cardbgtwo {
+    height: 150px;
+    background-color: #fff;
+}
+
+.cardbgthree {
+    height: 150px;
+    background-color: #fff;
+}
+
+.cardContent {
+    padding: 0 10px;
+}
+
+.cardContent p {
+    line-height: 30px;
+    opacity: 0.7;
+}
+
+.cardContent .cardBtn {
+    position: absolute;
+    margin: 0 auto;
+    bottom: 2vw;
+    right: 25px;
+    padding: 10px;
+    background-color: #e4e6ea;
+    width: 25px;
+    height: 20px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out .2s;
+}
+
+.cardContent .cardBtn:hover {
+    background-image: linear-gradient(#635fc5, #2EBBCC);
+}
+
+.cardContent .cardBtn .cardIcon {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 16px;
+}
+
+/* banner CSS */
+.banner {
+    height: 300px;
+    background-image: linear-gradient(#2EBBCC, #635fc5);
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bannerText h1 {
+    font-size: 4vw;
+    color: black;
+    font-weight: 600;
+}
+
+.bannerText img {
+    width: 11vw;
+    margin-right: 20px;
+}
+
+.bannerImg img {
+    width: 20vw;
+}
+
+/* footer CSS */
+.footer {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.footerLinks a {
+    margin: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+
+.footerLinks .mainlink {
+    color: #2EBBCC;
+}
+
+.footer a:hover {
+    color: #635fc5;
+}
+
+/* responsive*/
+@media only screen and(max-width:600px) {
+    .nav {
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px;
+        height: auto;
+        overflow-y: hidden;
+    }
+
+    .nav h4 {
+        font-size: 6vw;
+        margin-top: 10px;
+        margin-bottom: 14px;
+    }
+
+    .nav .links a {
+        margin-right: 25px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    /* landing CSS */
+    .landing {
+        flex-direction: column-reverse;
+        height: 750px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .landingText h1 {
+        font-size: 6vw;
+        margin: 0 !important;
+    }
+
+    .landingText h3 {
+        font-size: 16px;
+    }
+
+    .landingText .Btn {
+        font-size: 3vw;
+    }
+
+    .landingImage img {
+        width: 53vw;
+        margin-bottom: 20px;
+    }
+
+    /* Service */
+    .about {
+        height: auto;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutText {
+        padding: 0 50px;
+        height: 100px;
+    }
+
+    .aboutText h1 {
+        left: 40px;
+        font-size: 5vw;
+    }
+
+    .aboutText img {
+        width: 16vw;
+        top: 10px;
+        left: -30px;
+    }
+
+    .aboutList {
+        width: 75%;
+
+    }
+
+    ol li {
+        font-size: 26px;
+    }
+
+    li p {
+        font-size: 14px;
+    }
+
+    .infoSection {
+        height: auto;
+    }
+
+    .infoCards {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .infoCards .cards {
+        margin-bottom: 60px;
+    }
+
+    /* banner */
+    .banner {
+        height: auto;
+        flex-direction: column-reverse;
+        padding: 50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .banner h1 {
+        font-size: 6vw;
+    }
+
+    .bannerInnerText {
+        font-size: 3vw !important;
+    }
+
+    .bannerTextwid {
+        width: 20vw;
+    }
+
+    .bannerImg img {
+        width: 26vw;
+    }
+
+    /* footer */
+    .footer {
+        padding-bottom: 40px;
+    }
+}
